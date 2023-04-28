@@ -1,0 +1,14 @@
+Cuestionario del labo_06
+
+1. ¿En qué consiste el patrón de diseño Repository?
+R// Un patrón que aísla la capa de datos del resto de la app. 
+La capa de datos hace referencia a la parte de tu app, independiente de la IU, 
+que controla los datos y la lógica empresarial de la app, lo que expone 
+API coherentes de modo que el resto de la app acceda a esos datos.
+
+
+2. ¿Qué es el ViewModel?
+R// Un contenedor que muestra los niveles nivel de pantalla. 
+Exponiendo el estado a la IU y encapsula la lógica relacionada. 
+Su principal ventaja es que almacena en caché el estado y 
+lo conserva durante los cambios de configuración.
