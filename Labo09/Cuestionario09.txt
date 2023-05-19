@@ -1,0 +1,12 @@
+1. ¿Qué es una coroutine en Kotlin y cómo se diferencia de un hilo
+tradicional?
+R// No hace bloqueos innecesarios y su codigo es de manera secuencial y bien estructurada.
+
+2. ¿Cuál es la importancia de la suspensión en las coroutines y cómo se
+implementa? R// Para el desarrolo de un codigo asincronico y no bloqueando codigo a la larga, como a las interfaces a la larga.
+
+3. ¿Cuál es el propósito del Dispatcher en las coroutines y cómo se elige
+uno adecuado para cada tarea? R// Darle un contexto o instruccion especifica que se ejecutaran en coroutine.
+
+4. ¿Cuál es el propósito y el uso de la función async en las coroutines?
+R// DAr coroutine de manera asincrona dando un Deferred, y dando un await. Resultando ser util para tareas recurentes y combinacion de los mismos.
